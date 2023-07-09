@@ -8,4 +8,4 @@ title: Wechat
 
 wechat: SoulWorkshop
 
-![image](https://mp.weixin.qq.com/misc/getqrcode?fakeid=3932509861&token=1341204997)
+![image](/qrcode.jpg)
