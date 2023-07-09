@@ -1,4 +1,4 @@
-remote_theme: CantBlues/not-pure-poole
+remote_theme: hydecorp/hydejack
 plugins:
   - jekyll-remote-theme
 
@@ -55,5 +55,5 @@ sass:
 
 author:
   name: 蓝不住
-  url: https://github.com/CantBlues/
+  url: https://cantblues.github.io
   email: wyslanbin@gmail.com
