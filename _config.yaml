@@ -16,11 +16,11 @@ accent_color: rgb(204,204,204)
 
 menu: 
   - title: Life 
-    url: /category/life/
+    url: /life/
   - title: Movie
-    url: /category/movie/
+    url: /movie/
   - title: Tech
-    url: /category/tech/
+    url: /tech/
   - title: Wechat
     url: /wechat/
 
@@ -32,21 +32,13 @@ collections:
     permalink:         /tag-:name/
     output:            true
 # Gems
-plugins:
+plugins: 
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
-
-
-social:
-  name: CantBlues
-  email: wyslanbin@gmail.com
-  links:
-    - https://twitter.com/cant_blues
-    - https://github.com/CantBlues
-
+ 
 google_site_verification: Hax0qorb4nJv0QfMcxzF_qHi-SkyL3hiXIYRq7k6xvI
 google_analytics: G-V9TWSWZMKC
 lang: zh-cn
@@ -61,8 +53,8 @@ disqus: cantblues
 
 author:
   name: 蓝不住
-  email: wyslanbin@gmail.com
   social: 
+    email: wyslanbin@gmail.com
     twitter: cant_blues
     github: CantBlues
 
