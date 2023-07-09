@@ -1,15 +1,17 @@
-remote_theme: hydecorp/hydejack
+remote_theme: CantBlues/hydejack
 plugins:
   - jekyll-remote-theme
 
 # Setup
 title: 前额叶工坊
 description: 探究生活，记录感悟
-url: https://cantblues.github.io
-avatar: /avatar.jpg
+
 paginate: 10
-permalink: pretty
-cover_image: /bg.jpeg
+paginate_path: '/:num/'
+
+theme_color:  rgb(25,55,71)
+accent_image: /assets/img/sidebar-bg.jpg
+accent_color: rgb(79,177,186)
 
 # Gems
 plugins:
@@ -19,41 +21,34 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Optimize Jekyll
-exclude:
-  - .editorconfig
-  - .git
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-  - scripts/
-  - not-pure-poole.gemspec
-
-# Optimize Jekyl SEO Tag
-twitter:
-  username: CantBlues
-  card: summary
-logo: logo.png
 social:
   name: CantBlues
+  picture:
+    path: avatar.jpg
   links:
     - https://twitter.com/cant_blues
     - https://github.com/CantBlues
+
 google_site_verification: Hax0qorb4nJv0QfMcxzF_qHi-SkyL3hiXIYRq7k6xvI
 google_analytics: G-V9TWSWZMKC
 lang: zh-cn
 
-sass:
-  sass_dir: _sass
-  style: :compressed
-
+defaults:
+  - scope:
+      type: posts
+    values:
+      comments: true
 
 # Replace this value and uncomment to enable Disqus
 # disqus: xxxxxx
 
 author:
   name: 蓝不住
-  url: https://cantblues.github.io
   email: wyslanbin@gmail.com
+  social: 
+    twitter: cant_blues
+    github: CantBlues
+
+legal:
+  - title: Comment Policy
+    url:  /comment_policy/
