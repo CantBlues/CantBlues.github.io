@@ -4,8 +4,8 @@ permalink: /wechat/
 title: Wechat
 ---
 
-公众号：前额叶工坊
+## 公众号：前额叶工坊
 
-wechat: SoulWorkshop
+## <a name="wechat">wechat：</a> SoulWorkshop
 
 ![image](/qrcode.jpg)
