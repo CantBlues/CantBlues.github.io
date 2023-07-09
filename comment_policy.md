@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /comment_policy/
 title: Comment Policy
-author: 蓝不住
 ---
+Comment Policy
