@@ -1,11 +1,12 @@
 ---
-layout: post
-permalink: /wechat/
+layout: about
 title: Wechat
 ---
 
 ## 公众号：前额叶工坊
 
-## <a name="wechat">wechat：</a> SoulWorkshop
+## wechat：SoulWorkshop
 
 ![image](/qrcode.jpg)
+
+<!--author-->

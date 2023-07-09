@@ -10,10 +10,27 @@ description: 探究生活，记录感悟
 paginate: 10
 paginate_path: '/:num/'
 
-theme_color:  rgb(25,55,71)
-accent_image: /assets/img/sidebar-bg.jpg
-accent_color: rgb(79,177,186)
+theme_color:  rgb(204,204,204)
+accent_image: /background.jpg
+accent_color: rgb(204,204,204)
 
+menu: 
+  - title: Life 
+    url: /category/life/
+  - title: Movie
+    url: /category/movie/
+  - title: Tech
+    url: /category/tech/
+  - title: Wechat
+    url: /wechat/
+
+collections:
+  featured_categories:
+    permalink:         /:name/
+    output:            true
+  featured_tags:
+    permalink:         /tag-:name/
+    output:            true
 # Gems
 plugins:
   - jekyll-gist
@@ -25,6 +42,7 @@ plugins:
 
 social:
   name: CantBlues
+  email: wyslanbin@gmail.com
   links:
     - https://twitter.com/cant_blues
     - https://github.com/CantBlues
