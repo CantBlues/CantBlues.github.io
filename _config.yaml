@@ -4,6 +4,7 @@ plugins:
 
 # Setup
 title: 前额叶工坊
+logo: avatar.jpg
 description: 探究生活，记录感悟
 
 paginate: 10
@@ -21,10 +22,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
+
 social:
   name: CantBlues
-  picture:
-    path: avatar.jpg
   links:
     - https://twitter.com/cant_blues
     - https://github.com/CantBlues
@@ -39,8 +39,7 @@ defaults:
     values:
       comments: true
 
-# Replace this value and uncomment to enable Disqus
-# disqus: xxxxxx
+disqus: cantblues
 
 author:
   name: 蓝不住
