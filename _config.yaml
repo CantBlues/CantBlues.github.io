@@ -4,7 +4,7 @@ plugins:
 
 # Setup
 title: 前额叶工坊
-logo: avatar.jpg
+logo: /avatar.jpg
 description: 探究生活，记录感悟
 
 paginate: 10
@@ -13,7 +13,7 @@ paginate_path: '/:num/'
 theme_color:  rgb(204,204,204)
 accent_image: /background.jpg
 accent_color: rgb(204,204,204)
-
+   
 menu: 
   - title: Life 
     url: /life/
@@ -38,7 +38,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
- 
+
 google_site_verification: Hax0qorb4nJv0QfMcxzF_qHi-SkyL3hiXIYRq7k6xvI
 google_analytics: G-V9TWSWZMKC
 lang: zh-cn
