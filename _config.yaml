@@ -5,7 +5,7 @@ plugins:
 # Setup
 title: 前额叶工坊
 logo: /avatar.jpg
-description: 探究生活，记录感悟
+description: 探究生活，记录感悟，开拓视角
 
 paginate: 10
 paginate_path: '/:num/'
