@@ -23,6 +23,8 @@ menu:
     url: /tech/
   - title: Wechat
     url: /wechat/
+  - title: Timeline
+    url: /timeline/
 
 collections:
   featured_categories:
