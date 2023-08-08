@@ -7,7 +7,7 @@ title: 前额叶工坊
 logo: /avatar.jpg
 description: 探究生活，记录感悟，开拓视角
 
-paginate: 5
+paginate: 10
 paginate_path: '/:num/'
 
 theme_color:  rgb(204,204,204)
