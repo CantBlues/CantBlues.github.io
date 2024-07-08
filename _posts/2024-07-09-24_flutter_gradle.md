@@ -3,7 +3,7 @@ layout: post
 title: flutter 项目打包时 长时间停留在 Running Gradle task 'assembleRelease'... 
 categories: Tech
 author: 蓝不住
-date: 2024-03-11 07:56 +0800 
+date: 2024-07-09 05:20 +0800 
 tags:
  - flutter
 ---
@@ -14,13 +14,16 @@ tags:
 
 解决：修改flutterSDK目录下 packages\flutter_tools\gradle\src\main\groovy\flutter.groovy 中 buildscript -> repositories
     替换
+
     ```groovy
     repositories {
         google()
         mavenCentral()
     }
     ```
+
     为
+    
     ```groovy
     repositories {
         // google()
